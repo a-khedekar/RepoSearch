@@ -1,38 +1,41 @@
-.App {
+.fetchInput{
+  width: 72%;
+  /* width: 100%; */
+  border: 3px solid #BE0000;;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #BE0000;
+}
+.fetchButton{
+width: 23%;
+/* width: 40px; */
+  height: 36px;
+  border: 1px solid #BE0000;
+  background: #BE0000;
   text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.fetchContainer{
+    padding-bottom: 21px;
+    width: 400px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.Centralization{
+  position:relative;
+    margin-top: 25px;
+  
+    left: 50%;
+    
+    margin-left: -11em;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tablescroll{
+    max-height: 600px;
+    overflow-y: scroll;
 }
